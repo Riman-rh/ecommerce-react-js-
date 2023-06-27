@@ -1,0 +1,33 @@
+.sidebar_wrapper{
+    width: 250px;
+    border-right: 1px solid lightgray;
+
+
+    
+}
+.sidebar_fixed{
+    position: fixed;
+    height: 100%;
+    padding: 40px 50px;
+}
+.sidebar_h2{
+    color: #303030;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.sidebar_nav{
+    list-style: none;
+    padding: 0;
+
+
+}
+
+
+.sidebar_item{
+    margin-bottom: 2rem;
+    text-align: left;
+    color: #484848;
+    font-weight: 600;
+    font-size: 14px;
+}

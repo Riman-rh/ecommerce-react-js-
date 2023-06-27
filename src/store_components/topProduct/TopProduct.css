@@ -1,0 +1,32 @@
+.topProduct_wrapper{
+  padding: 10px;
+
+}
+.topProduct_wrapper h3{
+    font-size: 42px;
+    font-weight: 500;
+    color: #2A3441;
+    margin-top: 3rem;
+}
+.topProduct{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow-y: scroll;
+    height: fit-content;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.topProduct::-webkit-scrollbar{
+  display: none;
+}
+@media (min-width: 58em) {
+  .topProduct_wrapper{
+    padding: 0px 50px;
+  }
+  .topProduct{
+    overflow-y: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

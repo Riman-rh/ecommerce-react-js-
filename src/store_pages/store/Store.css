@@ -1,0 +1,20 @@
+.store_content{
+    padding: 40px;
+}
+.related_products{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow-y: scroll;
+    border-bottom: 1.5rem;
+    
+}
+.related_products::-webkit-scrollbar{
+    display: none;
+}
+.store_products h3{
+    color: #2A3441;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}

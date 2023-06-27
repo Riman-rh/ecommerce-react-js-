@@ -1,0 +1,120 @@
+.services_wrapper{
+    padding: 20px 0px;
+}
+.services_header{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+.services_header h1{
+    font-weight: 500;
+    font-size: 28px;
+    color: #2A3441;
+    font-family: 'Poppins';
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.service_card{
+    box-sizing: border-box;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0px 0px 1px rgba(10, 22, 70, 0.06), 0px 3px 3px -1px rgba(10, 22, 70, 0.1);
+    border-radius: 10px;
+    max-width:80%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #2A3441;
+}
+.service_img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 0px;
+}
+
+.service_content{
+    text-align: center;
+}
+.service_p{
+    font-size: 18px;
+    font-weight: 550;
+}
+.services_button{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.services_btn{
+    padding:8px 18px;
+    color:#007AEA;
+    border:1px solid #007AEA;
+    outline: none;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.services_btn .MuiSvgIcon-root{
+    margin-left: 10px;
+}
+
+@media(min-width:48rem){
+    .services_wrapper{
+        padding: 20px 50px;
+    }
+    .services_header h1{
+        font-weight: 500;
+        font-size: 36px;
+        color: #2A3441;
+        font-family: 'Poppins';
+    }
+    .services{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    .service_card{
+        width:220px;
+        margin-left: 2rem;
+        height: 200px;
+        font-size:20px;
+  
+    }
+    .service_img{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 0px;
+    }
+    .services_btn{
+        padding:14px 24px;
+        color:#007AEA;
+        border:1px solid #007AEA;
+        outline: none;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+
+}

@@ -1,0 +1,94 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 30px ;
+    box-shadow: 0px 0px 1px rgba(10, 22, 70, 0.06), 0px 1px 1px rgba(10, 22, 70, 0.1);
+    z-index: 100;
+    background-color: #FFF;
+}
+.header_left{
+   display: flex;
+   justify-content: space-between;
+}
+.header_logo{
+   
+    flex: 0.3;
+}
+.logo{
+    width: 150px;
+}
+.header_nav{
+    list-style: none;
+    
+}
+.menu_hide{
+    display: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: #475467;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+.nav_item{
+    display: block;
+}
+.basket_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.basket_icon .MuiSvgIcon-root{
+    color: #475467;
+    font-size: 22px;
+}
+.basket_length{
+    position: relative;
+    top: -10px;
+    left: -7px;
+    border: 1px solid #E81B42;
+    background-color: #E81B42;
+    width: 12px;
+    height: 12px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media (min-width: 58em) {
+    .menu{
+        display: none;
+    }
+    .header{
+        padding: 10px 60px;
+        display: flex;
+        align-items: center;
+        padding: 10px 60px;
+    }
+
+    .header_nav,.menu_hide{
+        display: flex;
+        margin-left: 100px;
+        
+    }
+    .header_right{
+        display: flex;
+        align-items: center;
+    }
+    .basket_icon{
+        position: absolute;
+        right: 60px;
+    }
+  
+
+    
+  }

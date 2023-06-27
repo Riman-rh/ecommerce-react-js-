@@ -1,0 +1,91 @@
+.cartCard_wrapper{
+
+    height: fit-content;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #E4E7EC;
+    box-shadow: 0px 0px 1px rgba(10, 22, 70, 0.06), 0px 3px 3px -1px rgba(10, 22, 70, 0.1);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+.cartCard_left{
+
+    width: 80px;
+}
+.cartCard_right{
+    margin-left: 10px;
+    flex: 1;
+}
+.cartCard_left img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.cartCard_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartCard_header .MuiSvgIcon-root{
+    font-size: 15px;
+}
+.cartCard_h1{
+    margin-top: 0px;
+    color: #2A3441;
+    font-size: 14px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.cartCard_inf{
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #667085;
+    display: flex;
+    align-items: center;
+}
+.cartCard_inf span {
+    font-weight: 500;
+    margin-left: 5px;
+    color: #2A3441;
+}
+.CartCard_select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 5px;
+ 
+}
+.cartCard_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2A3441;
+}
+.cartCard_footer option{
+    font-weight: 500;
+    
+    color: #2A3441;
+}
+.CartCard_price{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (min-width: 48em){
+    .cartCard_h1{
+        font-size: 16px;
+    }
+    .cartCard_wrapper{
+        padding: 20px;
+    }
+    .cartCard_right{
+        margin-left: 20px;
+    }
+    .cartCard_inf{
+        font-size: 14px;
+    }
+    .CartCard_price{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,123 @@
+.yawm_header{
+    position: sticky;
+    padding: 20px ;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: #FFF;
+    box-shadow: 0px 0px 1px rgba(10, 22, 70, 0.06), 0px 1px 1px rgba(10, 22, 70, 0.1);
+}
+.menu_icon{
+    margin-left: 50px;
+}
+.yawm_header_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.yawm_header_logo img{
+    width: 150px;
+ }
+
+.yawm_header_nav{
+    list-style: none;
+   
+}
+.yawm_nav_link{
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.yawm_nav_link:hover{
+    background-color: #F5F5F5;
+}
+.yawm_header_lang{
+    display: none;
+}
+
+.yawm_header_right{
+    display: none;
+  
+}
+
+.yawm_header_login_btn{
+    display: none;
+}
+.yawm_header_hide{
+    display: none;
+    list-style: none;
+
+}
+
+@media(min-width:58rem){
+    .yawm_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px ;
+
+    }
+    .menu_icon{
+        display: none;
+    }
+    .yawm_header_nav,.yawm_header_hide{
+        display: flex;
+        justify-content: space-between;
+    }
+    .yawm_header_logo img{
+        margin-left: 50px;
+     }
+    .yawm_nav_link{
+        text-decoration: none;
+        color:#2A3441;
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 0rem;
+
+    }
+  
+    .yawm_header_lang{
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #667085;
+        padding:4px 4px;
+        width: 130px;
+        border-color: lightgray;
+        outline: none;
+        background-color: #FFF;
+        border-radius: 4px;
+    }
+    .yawm_header_right{
+        display: flex;
+        margin-left: 50px;
+        height: 60px;
+        justify-content:space-between;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .yawm_header_login{
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Poppins';
+        font-weight: 500;
+        color: #2A3441;
+        margin-right: 40px;
+    }
+    .yawm_header_login_btn{
+        display: block;
+        background-color: #007AEA;
+        padding: 10px 24px;
+        color:#FFF;
+        border-radius: 32px;
+        outline: none;
+        border:none;
+    }
+    .nav_login{
+        display: none;
+    }
+ 
+
+}

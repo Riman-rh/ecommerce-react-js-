@@ -1,0 +1,26 @@
+.category_header{
+    height: 250px;
+}
+.category_content{
+    padding: 5px;
+
+}
+.category_content h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #2A3441;
+}
+.category_products{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-top: 3rem;
+}
+@media (min-width: 48em) {
+    .category_content{
+        padding: 0px 150px;
+    
+    }
+}

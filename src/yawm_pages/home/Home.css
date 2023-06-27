@@ -1,0 +1,9 @@
+.yawmhome_wrapper{
+    padding:40px 10px;
+}
+@media(min-width:58rem){
+    .yawmhome_wrapper{
+        padding: 40px 60px;
+
+    }
+}
